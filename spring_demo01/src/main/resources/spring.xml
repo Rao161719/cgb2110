@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--1.将Dog对象交给Spring容器管理
+        1)属性id是bean的唯一标识符,一般首字母小写
+        2)属性class表示被管理的类的路径
+    -->
+    <bean id="dog" class="com.demo2.Dog" ></bean>
+    <bean id="cat" class="com.demo2.Cat"></bean>
+
+
+</beans>
